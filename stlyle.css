@@ -1,0 +1,22 @@
+.all-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-hover {
+    background-color: white;
+    border: .3px solid lightblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in;
+}
+
+.first-hover:hover {
+    background-color: lightblue;
+    width: 200px;
+}
